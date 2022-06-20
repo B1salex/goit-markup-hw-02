@@ -1,0 +1,188 @@
+:root {
+  --primary-text-color: #212121;
+  --paragraph-tex-color: #757575;
+  --primary-background-color: #e5e5e5;
+  --footer-background-coror: #2f303a;
+  --hover-color: #2196f3;
+  --hover-bgc: #ffffff;
+}
+/* Утилиты */
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+/* Стили для index.html*/
+/* ШАПКА index.html and portfolio.html*/
+.header {
+  background-color: var(--hover-bgc);
+}
+
+.nav-header-logo {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+.nav-logo-part {
+  color: var(--hover-color);
+}
+
+.nav-header-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  /* text-decoration: none; */
+}
+
+.mail {
+  color: var(--paragraph-tex-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  /* text-decoration: none; */
+}
+.tel {
+  color: var(--paragraph-tex-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  /* text-decoration: none; */
+}
+
+.tel:hover,
+.mail:hover,
+.tel:focus,
+.mail:focus,
+.nav-header-link:hover,
+.nav-header-link:focus {
+  color: var(--hover-color);
+}
+
+/* HERO */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Кнопка основная */
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--hover-bgc);
+  background-color: var(--hover-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* Преимущества */
+.advantages-list-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.advantages-list-text {
+  line-height: 1.71;
+  color: var(--paragraph-tex-color);
+}
+.activities-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  /* text-align: center; */
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  /* text-align: center; */
+}
+.team-item-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* text-align: center; */
+}
+.team-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--paragraph-tex-color);
+  /* text-align: center; */
+}
+
+/* Подвал index and footer*/
+.footer {
+  background-color: var(--footer-background-coror);
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--hover-bgc);
+}
+.footer-logo-part {
+  color: var(--hover-color);
+}
+.footer-address-text {
+  line-height: 1.71;
+  color: var(--hover-bgc);
+  font-style: normal;
+}
+.footer-address-link a {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.footer-address-link :hover,
+.footer-address-link :focus {
+  color: var(--hover-color);
+}
+
+/* Стили для Портфолио */
+
+/* Кнопки portfolio */
+.filter-btn {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: var(--hover-color);
+  color: var(--hover-bgc);
+}
+
+.projects-item .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--primary-text-color);
+}
+.projects-item .text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-tex-color);
+}
