@@ -97,7 +97,6 @@ body {
 
 /* Преимущества */
 .advantages-list-title {
-  font-weight: 700;
   text-transform: uppercase;
 }
 .advantages-list-text {
@@ -105,12 +104,10 @@ body {
   color: var(--paragraph-tex-color);
 }
 .activities-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
@@ -170,7 +167,6 @@ body {
 }
 
 .projects-item .title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   color: var(--primary-text-color);
