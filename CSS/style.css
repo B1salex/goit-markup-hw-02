@@ -13,6 +13,9 @@
 a {
   text-decoration: none;
 }
+address {
+  font-style: normal;
+}
 
 body {
   font-family: Roboto, sans-serif;
@@ -75,6 +78,8 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  color: var(--hover-bgc);
+  background-color: var(--footer-background-coror);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -87,10 +92,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--hover-bgc);
+  font-family: inherit;
   background-color: var(--hover-color);
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -98,6 +101,9 @@ body {
 /* Преимущества */
 .advantages-list-title {
   text-transform: uppercase;
+  font-size: inherit;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .advantages-list-text {
   line-height: 1.71;
