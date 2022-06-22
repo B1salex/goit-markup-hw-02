@@ -80,7 +80,6 @@ body {
   line-height: 1.36;
   color: var(--hover-bgc);
   background-color: var(--footer-background-coror);
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
