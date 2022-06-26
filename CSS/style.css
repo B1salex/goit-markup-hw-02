@@ -187,3 +187,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--paragraph-tex-color);
 }
+.title-advantages,
+.title-section {
+  display: none;
+}
